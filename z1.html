@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание №1</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-size: small;
+            margin-left: auto;
+            margin-right: auto;/*Для отцентровки таблицы*/
+            box-sizing: border-box;
+        }
+
+        td {
+            padding: 0;
+            border: 1px solid black;
+        }
+        .green {
+            background-color: green;
+        }
+        .red {
+            background-color: red;
+        }
+        .orange {
+            background-color:orange;
+        }
+        #w1 {
+            width: 190px;
+        }
+        #w2 {
+            width: 410px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr align="center">
+            <td rowspan="2" id="w1" class="green">Test 1</td>
+            <td colspan="2" id="w2">Test</td>
+        </tr>
+        <tr align="center">
+            <td class="orange">Test</td>
+            <td class="orange">Test</td>
+        </tr>
+        <tr align="center">
+            <td class="green">Test</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr align="center">
+            <td class="red">Test</td>
+            <td class="red">1<sub>2</sub></td>
+            <td><sub>2</sub>1<sub>2</sub>1<sub>2</sub>1<sub>2</sub>1</td>
+        </tr>
+        <tr align="center">
+            <td class="green">Test</td>
+            <td colspan="2">1</td>
+        </tr>
+    </table>
+</body>
+</html>
